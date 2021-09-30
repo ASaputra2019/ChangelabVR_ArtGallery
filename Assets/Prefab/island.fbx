@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2021
 		Month: 9
-		Day: 17
-		Hour: 10
-		Minute: 27
-		Second: 25
-		Millisecond: 801
+		Day: 30
+		Hour: 0
+		Minute: 8
+		Second: 6
+		Millisecond: 815
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "201903"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "17/09/2021 17:27:25.797"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "30/09/2021 07:08:06.813"
 			P: "Original|FileName", "KString", "", "", "C:\Users\andre\OneDrive\Documents\GitHub\Museum\Assets\Prefab\island.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "201903"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "17/09/2021 17:27:25.797"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "30/09/2021 07:08:06.813"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\andre\OneDrive\Documents\GitHub\Museum\Assets\Prefab"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Changelab\Museum\scenes\islandtable.ma"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 3158535581792, "", "Scene" {
+	Document: 2090823559856, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -310,13 +310,13 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	NodeAttribute: 3156873474080, "NodeAttribute::", "Null" {
+	NodeAttribute: 2087321580496, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	Geometry: 3156935106560, "Geometry::", "Mesh" {
+	Geometry: 2085874955968, "Geometry::", "Mesh" {
 		Vertices: *24 {
 			a: -1.23169159889221,0.802661299705505,3.69360208511353,1.18702912330627,0.802661299705505,3.69360208511353,-1.23169159889221,2.2820200920105,3.69360208511353,1.18702912330627,2.2820200920105,3.69360208511353,-1.23169159889221,2.2820200920105,-3.69360208511353,1.18702912330627,2.2820200920105,-3.69360208511353,-1.23169159889221,0.802661299705505,-3.69360208511353,1.18702912330627,0.802661299705505,-3.69360208511353
 		} 
@@ -376,7 +376,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 3156935107392, "Geometry::", "Mesh" {
+	Geometry: 2085874986752, "Geometry::", "Mesh" {
 		Vertices: *24 {
 			a: -0.892430067062378,0.309102773666382,2.95515131950378,1.04272282123566,0.309102773666382,2.95515131950378,-0.892430067062378,0.835794627666473,2.95515131950378,1.04272282123566,0.835794627666473,2.95515131950378,-0.892430067062378,0.835794627666473,-2.95515131950378,1.04272282123566,0.835794627666473,-2.95515131950378,-0.892430067062378,0.309102773666382,-2.95515131950378,1.04272282123566,0.309102773666382,-2.95515131950378
 		} 
@@ -436,7 +436,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 3157020725744, "Model::island", "Null" {
+	Model: 2088874467552, "Model::island", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",-0.0223312377929688,1.29556143283844,0
@@ -449,7 +449,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3157020732704, "Model::table", "Mesh" {
+	Model: 2088874469872, "Model::table", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",0.465234866570866,1.44068905384312,0
@@ -463,7 +463,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 3157020728064, "Model::bottom", "Mesh" {
+	Model: 2088874481472, "Model::bottom", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",0.465234866570866,0.536257955849768,0
@@ -477,7 +477,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 3157880592976, "Material::top_part", "" {
+	Material: 2089570330480, "Material::top_part", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -492,7 +492,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Material: 3157880576576, "Material::bottompart", "" {
+	Material: 2089570337680, "Material::bottompart", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -507,17 +507,17 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Video: 3157018785872, "Video::file1", "Clip" {
+	Video: 2087253035120, "Video::file1", "Clip" {
 		Type: "Clip"
 		Properties70:  {
-			P: "Path", "KString", "XRefUrl", "", "C:/Changelab/Museum/sourceimages/Whitewoodseamless.jpg"
-			P: "RelPath", "KString", "XRefUrl", "", "..\..\..\..\..\..\..\..\Changelab\Museum\sourceimages\Whitewoodseamless.jpg"
+			P: "Path", "KString", "XRefUrl", "", "C:/Changelab/Museum/sourceimages/lightbluewood.jpg"
+			P: "RelPath", "KString", "XRefUrl", "", "..\..\..\..\..\..\..\..\Changelab\Museum\sourceimages\lightbluewood.jpg"
 		}
 		UseMipMap: 0
-		Filename: "C:/Changelab/Museum/sourceimages/Whitewoodseamless.jpg"
-		RelativeFilename: "..\..\..\..\..\..\..\..\Changelab\Museum\sourceimages\Whitewoodseamless.jpg"
+		Filename: "C:/Changelab/Museum/sourceimages/lightbluewood.jpg"
+		RelativeFilename: "..\..\..\..\..\..\..\..\Changelab\Museum\sourceimages\lightbluewood.jpg"
 	}
-	Video: 3157018787792, "Video::file2", "Clip" {
+	Video: 2087253043760, "Video::file2", "Clip" {
 		Type: "Clip"
 		Properties70:  {
 			P: "Path", "KString", "XRefUrl", "", "C:/Changelab/Museum/sourceimages/blackmatte.jpg"
@@ -527,7 +527,7 @@ Objects:  {
 		Filename: "C:/Changelab/Museum/sourceimages/blackmatte.jpg"
 		RelativeFilename: "..\..\..\..\..\..\..\..\Changelab\Museum\sourceimages\blackmatte.jpg"
 	}
-	Texture: 3157018788752, "Texture::file1", "" {
+	Texture: 2087253059600, "Texture::file1", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::file1"
@@ -537,14 +537,14 @@ Objects:  {
 			P: "UseMaterial", "bool", "", "",1
 		}
 		Media: "Video::file1"
-		FileName: "C:/Changelab/Museum/sourceimages/Whitewoodseamless.jpg"
-		RelativeFilename: "..\..\..\..\..\..\..\..\Changelab\Museum\sourceimages\Whitewoodseamless.jpg"
+		FileName: "C:/Changelab/Museum/sourceimages/lightbluewood.jpg"
+		RelativeFilename: "..\..\..\..\..\..\..\..\Changelab\Museum\sourceimages\lightbluewood.jpg"
 		ModelUVTranslation: 0,0
 		ModelUVScaling: 1,1
 		Texture_Alpha_Source: "None"
 		Cropping: 0,0,0,0
 	}
-	Texture: 3157018787312, "Texture::file2", "" {
+	Texture: 2087253042800, "Texture::file2", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::file2"
@@ -561,7 +561,7 @@ Objects:  {
 		Texture_Alpha_Source: "None"
 		Cropping: 0,0,0,0
 	}
-	AnimationStack: 3157012896736, "AnimStack::Take 001", "" {
+	AnimationStack: 2087008962064, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStart", "KTime", "Time", "",1924423250
 			P: "LocalStop", "KTime", "Time", "",230930790000
@@ -569,7 +569,7 @@ Objects:  {
 			P: "ReferenceStop", "KTime", "Time", "",230930790000
 		}
 	}
-	AnimationLayer: 3157019251712, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2086341598976, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -579,43 +579,43 @@ Objects:  {
 Connections:  {
 	
 	;Model::island, Model::RootNode
-	C: "OO",3157020725744,0
+	C: "OO",2088874467552,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",3157019251712,3157012896736
+	C: "OO",2086341598976,2087008962064
 	
 	;NodeAttribute::, Model::island
-	C: "OO",3156873474080,3157020725744
+	C: "OO",2087321580496,2088874467552
 	
 	;Model::table, Model::island
-	C: "OO",3157020732704,3157020725744
+	C: "OO",2088874469872,2088874467552
 	
 	;Model::bottom, Model::island
-	C: "OO",3157020728064,3157020725744
+	C: "OO",2088874481472,2088874467552
 	
 	;Texture::file1, Material::top_part
-	C: "OP",3157018788752,3157880592976, "DiffuseColor"
+	C: "OP",2087253059600,2089570330480, "DiffuseColor"
 	
 	;Video::file1, Texture::file1
-	C: "OO",3157018785872,3157018788752
+	C: "OO",2087253035120,2087253059600
 	
 	;Geometry::, Model::table
-	C: "OO",3156935106560,3157020732704
+	C: "OO",2085874955968,2088874469872
 	
 	;Material::top_part, Model::table
-	C: "OO",3157880592976,3157020732704
+	C: "OO",2089570330480,2088874469872
 	
 	;Texture::file2, Material::bottompart
-	C: "OP",3157018787312,3157880576576, "DiffuseColor"
+	C: "OP",2087253042800,2089570337680, "DiffuseColor"
 	
 	;Video::file2, Texture::file2
-	C: "OO",3157018787792,3157018787312
+	C: "OO",2087253043760,2087253042800
 	
 	;Geometry::, Model::bottom
-	C: "OO",3156935107392,3157020728064
+	C: "OO",2085874986752,2088874481472
 	
 	;Material::bottompart, Model::bottom
-	C: "OO",3157880576576,3157020728064
+	C: "OO",2089570337680,2088874481472
 }
 ;Takes section
 ;----------------------------------------------------
