@@ -28097,11 +28097,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1550147033774968727, guid: d8b83f0acebd00e49bf034050785c077,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f38af78ef7dd64a45a8e096216a575a1, type: 2}
     - target: {fileID: 919132149155446097, guid: d8b83f0acebd00e49bf034050785c077,
         type: 3}
       propertyPath: m_Name
       value: Goldentornado
       objectReference: {fileID: 0}
+    - target: {fileID: 5773140593640131339, guid: d8b83f0acebd00e49bf034050785c077,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f38af78ef7dd64a45a8e096216a575a1, type: 2}
+    - target: {fileID: 7855425783274642183, guid: d8b83f0acebd00e49bf034050785c077,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f38af78ef7dd64a45a8e096216a575a1, type: 2}
+    - target: {fileID: 8190294395757194269, guid: d8b83f0acebd00e49bf034050785c077,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f38af78ef7dd64a45a8e096216a575a1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8b83f0acebd00e49bf034050785c077, type: 3}
 --- !u!4 &870379904 stripped
