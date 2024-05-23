@@ -1643,7 +1643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &77287468
 Transform:
   m_ObjectHideFlags: 0
@@ -1670,7 +1670,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.07
+  m_Intensity: 0.44
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -64714,8 +64714,8 @@ Transform:
   - {fileID: 2079625743}
   - {fileID: 620385791}
   - {fileID: 1506785206}
-  - {fileID: 1565160046}
   - {fileID: 1633255790}
+  - {fileID: 1565160046}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
