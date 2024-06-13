@@ -686,7 +686,22 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: READY_PLAYER_ME
+    4: READY_PLAYER_ME
+    7: READY_PLAYER_ME
+    13: READY_PLAYER_ME
+    14: READY_PLAYER_ME
+    19: READY_PLAYER_ME
+    21: READY_PLAYER_ME
+    25: READY_PLAYER_ME
+    27: READY_PLAYER_ME
+    28: READY_PLAYER_ME
+    29: READY_PLAYER_ME
+    30: READY_PLAYER_ME
+    31: READY_PLAYER_ME
+    32: READY_PLAYER_ME
+    33: READY_PLAYER_ME
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
