@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.AI;
 
 public class CanvasScript : MonoBehaviour
 {
@@ -10,14 +11,25 @@ public class CanvasScript : MonoBehaviour
     public Animator animator;
     public AudioSource audioSource;
 
+    public GameObject player;
+    public NavMeshAgent agent;
+
     public GameObject Character;
 
     public void buttonPress()
     {
-        print("Comes here");
-        animator.SetBool("IsTalking", true);
+        //print("Comes here");
+        //animator.SetBool("IsTalking", true);
 
-        audioSource.Play(0);
+        //audioSource.Play(0);
+
+        //ReachPlayer();
+
+    }
+
+    void ReachPlayer()
+    {
+        agent.SetDestination(player.transform.position);
     }
 
     // Start is called before the first frame update
@@ -25,6 +37,8 @@ public class CanvasScript : MonoBehaviour
     {
         animator = Character.GetComponent<Animator>();
         audioSource = Character.GetComponent<AudioSource>();
+
+        agent = Character.GetComponent<NavMeshAgent>();
 
     }
 
@@ -35,5 +49,8 @@ public class CanvasScript : MonoBehaviour
         {
             animator.SetBool("IsTalking", false);
         }
+
+        //print(player.transform.position);
+        
     }
 }

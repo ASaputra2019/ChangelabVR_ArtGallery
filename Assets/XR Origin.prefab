@@ -1110,7 +1110,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.005
+    widthMultiplier: 0.02
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1121,8 +1121,17 @@ LineRenderer:
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1630,7 +1639,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.005
+    widthMultiplier: 0.02
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1641,8 +1650,17 @@ LineRenderer:
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1945,10 +1963,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15120979ebab91d4f9bf997dcb3e8288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isInTrigger: 0
-  isLookingAtObject: 0
-  importantThingo: {fileID: 0}
+  isLookingAtObjectList: 
+  isInTriggerList: 
+  importantObjectsArray: []
   highlightMaterial: {fileID: 2100000, guid: 9c01d3eb5bd82004197ad2263002833e, type: 2}
-  originalMaterial: {fileID: 0}
-  textPanel: {fileID: 0}
-  text: {fileID: 0}
+  originalMaterialList: []
+  textPanelArray: []
+  ObjDescriptionTextArray: []
