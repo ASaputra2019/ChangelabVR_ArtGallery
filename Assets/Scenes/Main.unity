@@ -12319,7 +12319,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301583063}
   m_LocalRotation: {x: -0.002477951, y: -0.70710135, z: -0.0024779344, w: 0.70710355}
-  m_LocalPosition: {x: 0, y: 0, z: -0.642}
+  m_LocalPosition: {x: 0, y: 0, z: -0.644}
   m_LocalScale: {x: 0.97068, y: 0.87154734, z: 1}
   m_Children: []
   m_Father: {fileID: 801819033}
@@ -12350,7 +12350,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: https://www.rachelnicolejoy.com
+  m_text: www.rachelnicolejoy.com
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
