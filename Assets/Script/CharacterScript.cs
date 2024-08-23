@@ -59,7 +59,7 @@ public class CharacterScript : MonoBehaviour
                 Debug.Log("Current Button " + (currentButton));
                 Debug.Log(artTracks[currentButton]);
 
-                audioSource.clip = artTracks[currentButton];
+                audioSource.clip = artTracks[currentButton-1];
                 audioSource.volume = 1.0f;
                 audioSource.Play();
                 this.anim.SetBool("IsTalking", true);
