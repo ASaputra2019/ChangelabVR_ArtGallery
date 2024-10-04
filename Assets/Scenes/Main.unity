@@ -16297,7 +16297,7 @@ MonoBehaviour:
     Need To Fit In A Box. The Work She Is Delved Into Today Is A Manifestation Of
     Her Studies And An Overlapping Of Artistic Extraction With A Constant Theme \u2013
     Her Depiction Of The Female Form And Its Relation To The Human Experience And
-    Complexity Of The Subconscious Mind. "
+    Complexity Of The Subconscious Mind. \nwww.lindsaydawnstudios.com\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16324,8 +16324,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.325
-  m_fontSizeBase: 0.325
+  m_fontSize: 0.315
+  m_fontSizeBase: 0.315
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
