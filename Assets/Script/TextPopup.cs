@@ -46,7 +46,7 @@ public class TextPopup : MonoBehaviour
         {
             for (int i = 0; i < importantObjectsArray.Length; i++)
             {
-                print("back to normal");
+                //print("back to normal");
                 textPanelArray[i].SetActive(false);
                 importantObjectsArray[i].GetComponent<MeshRenderer>().material = originalMaterialList[i];
             }
