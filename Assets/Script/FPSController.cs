@@ -1,6 +1,4 @@
 ﻿using System;
-using ChangeLab.VRMusicAcademy;
-using ChangeLab.VRMusicAcademy.Player;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -9,7 +7,7 @@ public class FPSController : MonoBehaviour
 {
     [SerializeField] private GameObject interactorUI;
     [SerializeField] CharacterController characterController;
-    private NPCController nPCController;
+    //private NPCController nPCController;
     public float walkingSpeed = 7.5f;
     public float runningSpeed = 11.5f;
     public float gravity = 20.0f;
@@ -26,13 +24,13 @@ public class FPSController : MonoBehaviour
     [HideInInspector]
     public bool canMove = true;
 
-    public void StartGame(NPCController nPCController)
+    public void Start()
     {
-        this.nPCController = nPCController;
+       // this.nPCController = nPCController;
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        nPCController.CanInteract += CanInteract;
+       // nPCController.CanInteract += CanInteract;
         rotationY = transform.rotation.eulerAngles.y;
 
         rotationX = playerCamera.transform.localEulerAngles.x;
@@ -86,25 +84,25 @@ public class FPSController : MonoBehaviour
 
     private void Interact()
     {
-        if (canInteract)
-        {
-            bool isInRange = Utils.IsInRange(playerCamera.transform, nPCController.transform);
-            interactorUI.SetActive(isInRange);
-            if (isInRange)
-            {
-                if (Input.GetKeyDown("e"))
-                {
-                    playNext?.Invoke();
-                    canInteract = false;
-                    interactorUI.SetActive(false);
-                }
-            }
+        // if (canInteract)
+        // {
+        //     bool isInRange = Utils.IsInRange(playerCamera.transform, nPCController.transform);
+        //     interactorUI.SetActive(isInRange);
+        //     if (isInRange)
+        //     {
+        //         if (Input.GetKeyDown("e"))
+        //         {
+        //             playNext?.Invoke();
+        //             canInteract = false;
+        //             interactorUI.SetActive(false);
+        //         }
+        //     }
 
-        }
+        // }
     }
 
     void OnDestroy()
     {
-        nPCController.CanInteract -= CanInteract;
+      //  nPCController.CanInteract -= CanInteract;
     }
 }
