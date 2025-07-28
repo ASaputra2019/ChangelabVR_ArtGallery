@@ -1,4 +1,6 @@
 ﻿using System;
+using ChangeLab.ArtGallery;
+using ChangeLab.ArtGallery.Player;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -14,23 +16,22 @@ public class FPSController : MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
-    public event Action playNext;
-    private bool canInteract = false;
-
+    private bool canInteract = true;
+    private NPCController currentNPCController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0f;
     float rotationY = 0f;
 
     [HideInInspector]
     public bool canMove = true;
-
+    public NPCManager nPCManager { private get; set; }
     public void Start()
     {
-       // this.nPCController = nPCController;
+        // this.nPCController = nPCController;
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-       // nPCController.CanInteract += CanInteract;
+        // nPCController.CanInteract += CanInteract;
         rotationY = transform.rotation.eulerAngles.y;
 
         rotationX = playerCamera.transform.localEulerAngles.x;
@@ -77,32 +78,33 @@ public class FPSController : MonoBehaviour
         Interact();
     }
 
-    public void CanInteract()
-    {
-        canInteract = true;
-    }
-
     private void Interact()
     {
-        // if (canInteract)
-        // {
-        //     bool isInRange = Utils.IsInRange(playerCamera.transform, nPCController.transform);
-        //     interactorUI.SetActive(isInRange);
-        //     if (isInRange)
-        //     {
-        //         if (Input.GetKeyDown("e"))
-        //         {
-        //             playNext?.Invoke();
-        //             canInteract = false;
-        //             interactorUI.SetActive(false);
-        //         }
-        //     }
-
-        // }
+        if (!canInteract) return;
+        if (nPCManager.GetNearestNPC(transform, out NPCController nPCController))
+        {
+            interactorUI.SetActive(true);
+            if (Input.GetKeyDown("e"))
+            {
+                canInteract = false;
+                interactorUI.SetActive(false);
+                nPCController.StartMovement(nPCController.transform.position);
+                this.canInteract = false;
+                nPCController.CanInteract += CanInteract;
+                currentNPCController = nPCController;
+            }
+        }
+        else
+        {
+            interactorUI.SetActive(false);
+        }
     }
 
-    void OnDestroy()
+    private void CanInteract()
     {
-      //  nPCController.CanInteract -= CanInteract;
+        this.canInteract = true;
+        currentNPCController.CanInteract -= CanInteract;
+
     }
+
 }
