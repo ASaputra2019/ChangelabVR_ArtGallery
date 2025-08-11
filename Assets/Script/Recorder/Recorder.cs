@@ -52,8 +52,10 @@ namespace ChangeLab.ArtGallery.Recorder
         {
             if (index == transform.childCount)
             {
+                #if UNITY_EDITOR
                 //Stop Recording
                 EditorApplication.isPlaying = false;
+                #endif
                 runGame = false;
                 return;
             }
